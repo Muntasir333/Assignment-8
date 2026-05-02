@@ -7,6 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
+    "details": "Web development is one of the most valuable skills in the modern digital world. Businesses, schools, startups, and organizations all need websites and web applications to reach users and provide services. This bootcamp teaches both front-end and back-end development so learners can build complete projects from start to finish. Students understand HTML, CSS, JavaScript, responsive design, databases, APIs, and deployment. The necessity of this course is high because companies need developers who can solve real problems and create useful online systems. Freelancers can also earn by building websites for clients. Beginners benefit because the course starts from fundamentals and gradually moves to advanced topics. By learning full-stack development, students become more independent since they can handle user interface, server logic, and data management together. This knowledge improves creativity, problem-solving ability, and career opportunities. In today’s world where almost every business needs an online presence, web development remains a future-proof skill. Completing such a bootcamp can help learners build portfolios, gain confidence, and prepare for jobs, freelancing, or entrepreneurship in the growing technology industry.",
     "image": "https://tse3.mm.bing.net/th/id/OIP.XEVySEbxw-4iDmSXLsd8NgHaDt?pid=Api&h=220&P=0&w=220",
     "category": "Development"
   },
@@ -18,6 +19,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Master modern JavaScript concepts and projects.",
+    "details": "JavaScript is the backbone of modern web interactivity and one of the most demanded programming languages worldwide. This advanced course focuses on deeper concepts such as closures, promises, async programming, ES6+, DOM manipulation, modules, and project architecture. The necessity of learning advanced JavaScript is clear because basic syntax alone is not enough for professional development. Real companies need developers who can build scalable, maintainable, and fast applications. Learners who understand advanced concepts can work more efficiently, debug complex issues, and write cleaner code. JavaScript is also used beyond browsers through Node.js, allowing full-stack development with one language. This course helps intermediate students move toward expert level by strengthening logic and coding confidence. It is especially necessary for those preparing for interviews, internships, or software jobs where technical depth matters. Strong JavaScript knowledge also supports learning frameworks like React, Next.js, and Vue. As businesses increasingly rely on web apps, dashboards, and digital platforms, mastering JavaScript opens many career paths. This course therefore becomes an important step for anyone serious about becoming a professional developer in today’s technology-driven market.",
     "image": "https://tse2.mm.bing.net/th/id/OIP.hGhDz_rOofgRbidnsGwEbQHaEB?pid=Api&h=220&P=0",
     "category": "Development"
   },
@@ -29,6 +31,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn the fundamentals of user interface and user experience design.",
+    "details": "UI and UX design are essential for creating digital products that people enjoy using. UI focuses on the visual appearance such as colors, typography, buttons, and layouts, while UX focuses on usability, flow, and user satisfaction. This course teaches the foundations of both areas, helping beginners understand how to design attractive and user-friendly products. The necessity of UI/UX skills has grown rapidly because businesses compete not only on features but also on customer experience. A confusing website or app can quickly lose users, while a smooth experience builds trust and loyalty. Students learn wireframing, prototyping, user research, design thinking, and interface principles. These skills are valuable for designers, developers, product managers, and entrepreneurs. Even programmers benefit because understanding design improves collaboration with creative teams. As mobile apps, websites, and software continue to expand globally, the demand for user-centered design keeps increasing. This course helps learners create products that solve problems effectively while looking professional. Strong UI/UX knowledge can lead to careers in product design, freelancing, or startup work. It is a necessary discipline in the digital era where user experience strongly influences business success.",
     "image": "https://blog.pwskills.com/wp-content/uploads/2025/04/ui-ux-design-examples.jpg",
     "category": "Design"
   },
@@ -40,6 +43,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Boost your business with SEO, ads, and social media marketing.",
+    "details": "Digital marketing has become necessary for every modern business because customers spend significant time online. This course teaches important areas such as search engine optimization, paid advertising, content strategy, email marketing, and social media growth. The necessity of these skills is high because having a good product alone is not enough; people must discover it first. Businesses use digital marketing to reach targeted audiences, increase sales, and build brand awareness at lower cost than many traditional methods. Learners gain practical knowledge on campaign planning, analytics, audience behavior, and conversion strategies. Entrepreneurs benefit by promoting their own brands, while job seekers can enter a fast-growing field with many remote opportunities. Understanding digital marketing also helps creators, freelancers, and small business owners grow online presence. As e-commerce expands globally, demand for marketers who understand SEO and paid traffic continues rising. This course is especially valuable because it combines strategy with measurable results. Students learn how to test ideas, optimize performance, and make data-driven decisions. In a world where online competition is intense, digital marketing skills are no longer optional—they are necessary for growth, visibility, and long-term business success.",
     "image": "https://tse2.mm.bing.net/th/id/OIP.efZej63CHyA9KFOYgOpiYgHaDY?pid=Api&h=220&P=0",
     "category": "Marketing"
   },
@@ -51,6 +55,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn Python, NumPy, Pandas, and data visualization.",
+    "details": "Data science is transforming industries by helping organizations make smarter decisions from information. Python is the leading language in this field because it is simple, powerful, and supported by excellent libraries. This course teaches Python fundamentals along with NumPy, Pandas, and visualization tools used in real analysis work. The necessity of learning data science is growing because companies collect huge amounts of data but need skilled people to interpret it. Students learn how to clean datasets, analyze trends, build reports, and present findings clearly. These skills are useful in finance, healthcare, education, marketing, agriculture, and many other sectors. Python is also beginner-friendly, making it ideal for learners entering programming for the first time. Understanding data helps businesses reduce waste, predict outcomes, and improve strategy. This course is necessary for those seeking modern career opportunities such as data analyst, business analyst, or machine learning learner. Even non-technical professionals benefit because data literacy improves decision-making. In today’s world where information drives success, learning Python for data science creates strong future potential and practical value across almost every industry.",
     "image": "https://tse4.mm.bing.net/th/id/OIP.Wacv5vo7dHqjoI-gVi-MyAHaEK?pid=Api&h=220&P=0",
     "category": "Data Science"
   },
@@ -62,6 +67,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Build Android and iOS apps using Flutter framework.",
+    "details": "Mobile applications are now a daily necessity for communication, banking, shopping, education, entertainment, and productivity. This course teaches Flutter, a powerful framework that allows developers to build Android and iOS apps from one codebase. The necessity of learning Flutter is significant because businesses want fast and cost-effective app development without maintaining separate teams for different platforms. Students learn user interface creation, navigation, state management, APIs, and deployment processes. Flutter is popular because it offers attractive designs, strong performance, and faster development speed. Learners interested in freelancing or startups can build cross-platform apps efficiently, saving both time and money. As smartphone usage continues increasing worldwide, the demand for mobile developers remains strong. This course is valuable for web developers who want to expand into mobile careers and for beginners who want to enter app development directly. Mobile skills also encourage creativity since learners can turn ideas into useful products people use every day. In the digital economy, having app development knowledge provides a competitive advantage. Flutter therefore becomes a necessary technology for anyone aiming to create modern mobile solutions and access growing career opportunities.",
     "image": "https://www.codeit.com.np/storage/01JE85NEMEGNAJ6NEN0P1XXJS8.webp",
     "category": "Development"
   }
