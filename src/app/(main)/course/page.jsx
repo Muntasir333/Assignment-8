@@ -1,32 +1,20 @@
-import React from 'react';
+
 import show from '@/data/data.json'
 import { CiStar } from 'react-icons/ci';
 import Link from 'next/link';
+import Search from '@/component/Search';
 
 const Course =  async ({ params }) => {
+   
      await new Promise(resolve => setTimeout(resolve, 1000));
      const { id } = await params;
     return (
         <div className='container mx-auto mt-7 bg-slate-200 p-5 rounded-lg'>
 
-        <label className="input mx-auto flex items-center gap-2 mb-5">
-  <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <g
-      strokeLinejoin="round"
-      strokeLinecap="round"
-      strokeWidth="2.5"
-      fill="none"
-      stroke="currentColor"
-    >
-      <circle cx="11" cy="11" r="8"></circle>
-      <path d="m21 21-4.3-4.3"></path>
-    </g>
-  </svg>
-  <input type="search" required placeholder="Search" />
-</label>
 
+        <Search />
 
-             <div className='grid grid-cols-3 gap-5'>
+             {/* <div className='grid grid-cols-3 gap-5'>
                             {
                                 show.map(item =>  <div className='text-center bg-white pt-5 rounded-3xl pb-5 space-y-3 hover:bg-amber-200' key={item.id}>
                                 <img className='mx-auto object-cover' src={item.image} alt={item.title} width={300} height={200} />
@@ -42,7 +30,7 @@ const Course =  async ({ params }) => {
             
                                  )
                             }
-                            </div>
+                            </div> */}
         </div>
     );
 };
