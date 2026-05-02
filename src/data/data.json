@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.XEVySEbxw-4iDmSXLsd8NgHaDt?pid=Api&h=220&P=0&w=220",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master modern JavaScript concepts and projects.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.hGhDz_rOofgRbidnsGwEbQHaEB?pid=Api&h=220&P=0",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI UX Design Essentials",
+    "instructor": "Emily Johnson",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the fundamentals of user interface and user experience design.",
+    "image": "https://blog.pwskills.com/wp-content/uploads/2025/04/ui-ux-design-examples.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Pro Course",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Boost your business with SEO, ads, and social media marketing.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.efZej63CHyA9KFOYgOpiYgHaDY?pid=Api&h=220&P=0",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Python for Data Science",
+    "instructor": "David Wilson",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn Python, NumPy, Pandas, and data visualization.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.Wacv5vo7dHqjoI-gVi-MyAHaEK?pid=Api&h=220&P=0",
+    "category": "Data Science"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Sophia Lee",
+    "duration": "25 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build Android and iOS apps using Flutter framework.",
+    "image": "https://www.codeit.com.np/storage/01JE85NEMEGNAJ6NEN0P1XXJS8.webp",
+    "category": "Development"
+  }
+]
