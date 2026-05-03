@@ -18,8 +18,9 @@ const Navbar = () => {
             </div>
             <div className='flex justify-between items-center gap-3'>
                 <FaUserCircle />
-                <button className='btn btn-primary'>Logout</button>
-
+            <Link href="/login">
+                    <button className='btn btn-primary'>Login</button>
+                </Link>
             </div>
         </div>
     );
