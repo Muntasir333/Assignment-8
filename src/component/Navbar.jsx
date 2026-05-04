@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const user = session?.user;
     return (
-        <div className='container mx-auto flex justify-between items-center p-5 bg-neutral text-white'>
+        <div className='container mx-auto flex flex-col md:flex-row justify-between items-center p-5 bg-neutral text-white'>
             <div className=''>
                 <h2 className='text-3xl font-bold'>SkillSphere</h2>
             </div>

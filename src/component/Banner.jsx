@@ -49,10 +49,10 @@ const Banner = () => {
           
           <Image
             src={Photo}
-            width={500}
+            width={500 }
             height={500}
             alt="banner"
-            className="rounded-xl max-w-md shadow-lg"
+            className="rounded-xl max-w-md shadow-lg w-[200px] sm:w-[250px] md:w-[350px] lg:w-[450px] xl:w-[500px]"
           />
            
           <Image
@@ -60,15 +60,15 @@ const Banner = () => {
             width={500}
             height={500}
             alt="banner"
-            className="rounded-xl max-w-md shadow-lg"
+            className="rounded-xl max-w-md shadow-lg w-[200px] sm:w-[250px] md:w-[350px] lg:w-[450px] xl:w-[500px]"
           />
           <Image
             src={Photo3}
             width={500}
             height={500}
             alt="banner"
-            className="rounded-xl max-w-md shadow-lg"
-          />
+                className="rounded-xl max-w-md shadow-lg w-[200px] sm:w-[250px] md:w-[350px] lg:w-[450px] xl:w-[500px] h-auto"
+  />
         </div>
 
       </div>

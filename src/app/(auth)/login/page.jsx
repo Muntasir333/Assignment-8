@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { use, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaGoogle } from 'react-icons/fa';
+import { toast } from "react-toastify";
 
 const Login = () => {
     const handlelogin = async()=>{
@@ -22,10 +23,10 @@ const Login = () => {
     callbackURL: "/",
 });
     if (res) {
-        alert("Login successful!");
+        toast.success("Login successful!");
     }   
     if (error) {
-        error.message && alert(error.message);
+        error.message && toast.error(error.message);
         return;
     }
 

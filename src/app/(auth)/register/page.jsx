@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { toast } from "react-toastify";
 
 const Register = () => {
     const [showPass, setShowPass] = useState(false);
@@ -23,12 +24,12 @@ const Register = () => {
             });
 
             if (Res) {
-                alert("Registration successful! Please check your email to verify your account.");
+                toast.success("Registration successful! Please check your email to verify your account.");
                 router.push("/login");
             }
 
             if (error) {
-                error.message && alert(error.message);
+                error.message && toast.error(error.message);
                 return;
             }}
 

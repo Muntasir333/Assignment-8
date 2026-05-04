@@ -14,7 +14,7 @@ const Newrls = () => {
                 <div className='flex gap-5 items-center justify-center mt-10 mb-5 text-primary'>
                 <h2 className='text-3xl font-normal text-center '>Trending Courses 
  </h2><FaFire /></div>
-                <div className='grid grid-cols-3 gap-5'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 {
                     show.map(item =>  <div className='text-center bg-slate-200 pt-5 rounded-3xl pb-5 space-y-3  hover:bg-amber-200' key={item.id}>
                     <img className='mx-auto object-cover' src={item.image} alt={item.title} width={300} height={200} />

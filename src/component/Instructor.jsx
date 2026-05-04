@@ -30,7 +30,7 @@ const Instructor = () => {
     return (
         <div className='mx-auto container mt-7 bg-slate-200 p-7'>
             <h2 className='font-bold text-xl text-center'>Meet Our Top Rated Instructors</h2>
-          <div className='grid grid-cols-4 gap-5 mt-7'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7'>
             {instructor.map((inst) => (
               <div key={inst.id} className='text-center bg-white p-5 rounded-lg'>
                 <img className='mx-auto object-cover rounded-full' src={inst.image} alt={inst.name} width={200} height={200} />

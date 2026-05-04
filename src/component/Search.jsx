@@ -26,7 +26,7 @@ const Search = () => {
             
             </label>
 
-             <div className='grid grid-cols-3 gap-5 mb-8'>
+             <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mb-8'>
                             {
                                 filtered.map(item =>  <div className='text-center bg-white pt-5 rounded-3xl pb-5 space-y-3 hover:bg-amber-200' key={item.id}>
                                 <img className='mx-auto object-cover' src={item.image} alt={item.title} width={300} height={200} />
