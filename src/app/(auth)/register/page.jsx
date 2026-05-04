@@ -1,16 +1,37 @@
 'use client'
+import { authClient } from '@/lib/auth-client';
 import Link from 'next/link';
-import React from 'react';
+import { useRouter } from 'next/navigation';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 const Register = () => {
+    const [showPass, setShowPass] = useState(false);
+    const router = useRouter();
         const { register, handleSubmit, formState: { errors } } = useForm();
         
         
-            const handleRegister = (data) => {
+            const handleRegister = async (data) => {
             console.log(data);
+
+            const { data: Res, error } = await authClient.signUp.email({
+                email: data.email,
+                password: data.password,
+                name: data.name,
+                photoUrl: data.photoUrl,
+               callbackURL: "/login",
+            });
+
+            if (Res) {
+                alert("Registration successful! Please check your email to verify your account.");
+                router.push("/login");
             }
-        
+
+            if (error) {
+                error.message && alert(error.message);
+                return;
+            }}
+
             return (
                 <div className='container mx-auto min-h-[80vh] flex items-center justify-center flex-col gap-5 bg-slate-200 p-5 rounded-lg'>
                     <div className='bg-white p-5 rounded-lg'>
@@ -36,10 +57,15 @@ const Register = () => {
         </fieldset>
         <fieldset className="fieldset">
           <legend className="fieldset-legend">Password</legend>
-          <input type="password" className="input" placeholder="Type Password"   {...register("password", { required: true })} />
+          <input type={showPass ? "text" : "password"} className="input" placeholder="Type Password"   {...register("password", { required: true })} />
           {errors.password && <p className="text-red-500">Password is required</p>}
         
         </fieldset>
+        <span className=''>
+    <input type="checkbox" id="showPass" onChange={()=>setShowPass(!showPass)} />
+    <label htmlFor="showPass" className='ml-2 text-sm'>Show Password</label>
+</span>
+
         
         <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl w-full bg-black text-white">Register</button>
                         </form>
