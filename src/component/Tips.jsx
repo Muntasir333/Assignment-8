@@ -1,4 +1,6 @@
+'use client';
 import React from 'react';
+import { motion } from "motion/react";
 const tips = [
   {
     id: 1,
@@ -28,9 +30,15 @@ const Tips = () => {
                         <h2 className='text-2xl font-bold mb-3'>{tip.title}</h2>
                         <ul className='list-disc list-inside'>
                             {tip.points.map((point, index) => (
-                                <li key={index} className='mb-2'>
+                                <motion.li
+                                    key={index}
+                                    initial={{ opacity: 0, x: -20 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    transition={{ delay: index * 1.5, duration: 0.5 }}
+                                    className='mb-2'
+                                >
                                     {point}
-                                </li>
+                                </motion.li>
                             ))}
                         </ul>
                     </div>)
